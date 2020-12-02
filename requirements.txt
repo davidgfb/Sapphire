@@ -1,3 +1,3 @@
-Pymem==1.0
-keyboard==0.13.2
+Pymem
+keyboard
 #pywin32api
