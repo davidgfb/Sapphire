@@ -21,8 +21,8 @@ while abierto:
 
     entity_team = pm.read_int(entity + m_iTeamNum)
     player_team = pm.read_int(player + m_iTeamNum)
-
-    if entity_id > 0 and entity_id <= 64 and player_team != entity_team:
+    
+    if 0<entity_id<= 64 and player_team != entity_team:
         pm.write_int(client + dwForceAttack, 6)
 
 
